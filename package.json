@@ -1,0 +1,41 @@
+{
+  "name": "aws-serverless-pix-scratch",
+  "version": "1.0.0",
+  "description": "Aws Serveless Pix Scratch",
+  "keywords": [
+    "aws",
+    "serveless",
+    "pix",
+    "scratch"
+  ],
+  "homepage": "https://github.com/owalacesilva/aws-serverless-pix-scratch#readme",
+  "bugs": {
+    "url": "https://github.com/owalacesilva/aws-serverless-pix-scratch/issues"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owalacesilva/aws-serverless-pix-scratch.git"
+  },
+  "license": "ISC",
+  "author": "Walace Silva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "dependencies": {
+    "aws-cdk": "^2.1138.0",
+    "aws-cdk-lib": "^2.99.0",
+    "aws-sdk": "^2.1410.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "typescript": "^7.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
