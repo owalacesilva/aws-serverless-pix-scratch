@@ -1,41 +1,24 @@
 {
-  "name": "aws-serverless-pix-scratch",
-  "version": "1.0.0",
-  "description": "Aws Serveless Pix Scratch",
-  "keywords": [
-    "aws",
-    "serveless",
-    "pix",
-    "scratch"
-  ],
-  "homepage": "https://github.com/owalacesilva/aws-serverless-pix-scratch#readme",
-  "bugs": {
-    "url": "https://github.com/owalacesilva/aws-serverless-pix-scratch/issues"
-  },
-  "engines": {
-    "node": ">=24.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/owalacesilva/aws-serverless-pix-scratch.git"
-  },
-  "license": "ISC",
-  "author": "Walace Silva",
-  "type": "commonjs",
-  "main": "index.js",
+  "name": "app",
+  "version": "0.1.0",
   "scripts": {
-    "test": "npm run tests"
-  },
-  "dependencies": {
-    "aws-cdk": "^2.1138.0",
-    "aws-cdk-lib": "^2.99.0",
-    "aws-sdk": "^2.1410.0",
-    "axios": "^1.6.5",
-    "dotenv": "^16.3.1",
-    "typescript": "^7.0.2",
-    "uuid": "^9.0.0"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
   },
   "devDependencies": {
-    "jest": "^30.4.2"
+    "@swc/core": "^1.15.0",
+    "@swc/jest": "^0.2.39",
+    "@types/jest": "^30",
+    "@types/node": "^24.10.1",
+    "jest": "^30",
+    "aws-cdk": "2.1138.0",
+    "tsx": "^4.23.0",
+    "typescript": "~7.0.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.265.0",
+    "constructs": "^10.5.0"
   }
 }
